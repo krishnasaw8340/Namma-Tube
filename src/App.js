@@ -1,13 +1,20 @@
-
 import './App.css';
-import { Head } from './component/Head';
-import MainContainer from './component/MainContainer';
+import AgePredictor from './new-component/AgePredictor';
+import CatFacts from './new-component/CatFacts';
+import Clock from './new-component/Clock';
+import CryptoValues from './new-component/CryptoValues';
+import DataTable from './new-component/DataTable';
 
 function App() {
   return (
     <div className="App">
-      <Head/>
-     <MainContainer/>
+      <strong>ReactJs Admin Dashboard</strong>
+     <Clock/>
+     <DataTable/>
+     <AgePredictor/>
+     <CatFacts/>
+     <CryptoValues/>
+
     </div>
   );
 }

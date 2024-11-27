@@ -1,22 +1,25 @@
-import './App.css';
-import AgePredictor from './new-component/AgePredictor';
-import CatFacts from './new-component/CatFacts';
-import Clock from './new-component/Clock';
-import CryptoValues from './new-component/CryptoValues';
-import DataTable from './new-component/DataTable';
+import React from 'react'
 
-function App() {
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import OurServices from "./components/OurServices";
+import CaseStudies from "./components/CaseStudies";
+import ClientTestimonials from "./components/ClientTestimonials";
+import PlanSuccess from "./components/PlanSuccess";
+import Footer from "./components/Footer";
+
+const App = () => {
   return (
-    <div className="App">
-      <strong>ReactJs Admin Dashboard</strong>
-     <Clock/>
-     <DataTable/>
-     <AgePredictor/>
-     <CatFacts/>
-     <CryptoValues/>
-
+    <div>
+      <Header />
+      <Hero />
+      <OurServices />
+      <CaseStudies />
+      <ClientTestimonials />
+      <PlanSuccess />
+      <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

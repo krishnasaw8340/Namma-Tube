@@ -53,15 +53,6 @@ const testimonials = [
       name: "David Miller",
       position: "Founder",
     },
-    {
-      id: 7,
-      company: "Elevate",
-      logo: "/logos/elevate.png",
-      description: "Our go-to agency for innovative marketing solutions.",
-      avatar: "/avatars/person7.jpg",
-      name: "Olivia Davis",
-      position: "Head of Operations",
-    },
   ];
   
   export default testimonials;

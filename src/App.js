@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: '#cfcdfa', minHeight: '100vh' }}>
       <Header />
       <Hero />
       <OurServices />

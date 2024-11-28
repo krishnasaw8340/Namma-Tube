@@ -1,18 +1,27 @@
 import React from "react";
 
 const Hero = () => (
-  <section className="w-full h-screen flex flex-col justify-center items-center bg-blue-500 text-white text-center px-4">
-    <h1 className="text-4xl font-bold mb-4">Focused On Your Goals</h1>
-    <p className="text-lg mb-6">
-      We specialize in crafting tailored marketing strategies that are as unique as your brand.
-      From developing targeted social media campaigns to optimizing your online presence, we use
-      a mix of creativity and strategic insights to elevate your brand to the next level.
+  <div className="h-screen flex items-center justify-between px-16">
+  {/* Left Side - Focused on Your Goals */}
+  <div className="flex-1 text-left">
+    <div className="text-black text-[4rem] font-extrabold leading-tight">
+      FOCUSED ON <br /> YOUR GOALS
+    </div>
+  </div>
+
+  {/* Right Side - Description and Button */}
+  <div className="flex-1 text-left text-gray-700 text-lg mt-10">
+    <p>
+      We specialize in crafting tailored <span className="font-bold">marketing</span> strategies that are as unique as your brand. From developing targeted social media campaigns to optimizing your online presence, we use a mix of creativity and strategic insights to elevate your brand to the next level.
     </p>
-    <button className="bg-white text-blue-500 px-6 py-3 rounded-full flex items-center">
-      <img src="/logo.svg" alt="Logo" className="w-6 h-6 mr-2" />
-      About Us
-    </button>
-  </section>
+    <a
+      href="#"
+      className="mt-8 inline-block bg-pink-500 text-white font-bold py-3 px-6 rounded-full hover:bg-pink-600 transition duration-300"
+    >
+      ABOUT US → 
+    </a>
+  </div>
+</div>
 );
 
 export default Hero;

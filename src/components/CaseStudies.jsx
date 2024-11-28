@@ -2,7 +2,7 @@ import React from "react";
 import caseStudies from "../data/caseStudies";
 
 const CaseStudies = () => (
-  <section className="w-full py-12 bg-white">
+  <section className="w-full py-12">
     <h2 className="text-3xl font-bold text-center mb-8">Case Studies</h2>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-8">
       {caseStudies.map((caseStudy) => (

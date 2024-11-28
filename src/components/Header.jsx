@@ -11,7 +11,6 @@ const Header = () => {
     "https://cdn.prod.website-files.com/670e6d5ddcec8bb7c56d8133/670e6fa1339ed219d3a741f6_template-img-07.webp",
     "https://cdn.prod.website-files.com/670e6d5ddcec8bb7c56d8133/670e6f9a339ed219d3a73e4f_template-img-04.webp",
     "https://cdn.prod.website-files.com/670e6d5ddcec8bb7c56d8133/670e6f9e339ed219d3a74127_template-img-06.webp",
-
   ];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 

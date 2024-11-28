@@ -13,7 +13,7 @@ const App = () => {
     <div style={{ backgroundColor: '#cfcdfa', minHeight: '100vh' }}>
       <Header />
       <Hero />
-      <OurServices />
+      {/* <OurServices /> */}
       <CaseStudies />
       <ClientTestimonials />
       <PlanSuccess />

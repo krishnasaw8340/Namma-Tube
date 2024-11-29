@@ -70,7 +70,7 @@ const Header = () => {
         <img
           src={images[currentImageIndex]}
           alt={`Slide ${currentImageIndex + 1}`}
-          className="w-full max-w-md object-cover rounded-lg shadow-lg transition-transform duration-500 ease-in-out animate-move"
+          className="w-full max-w-md object-cover rounded-full shadow-lg transition-transform duration-500 ease-in-out animate-move"
         />
       </div>
     </div>
